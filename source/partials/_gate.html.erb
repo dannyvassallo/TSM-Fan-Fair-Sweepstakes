@@ -1,0 +1,19 @@
+<div id="gate">
+
+  <%= partial 'partials/header' %>
+
+  <div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2 margin-top">
+    <form id="age-gate" role="form">
+      <div class="form-group text-center primary-text">
+        <label for="birthday">What is your birthday?</label>
+        <input id="birthday-input" placeholder="MM/DD/YYYY" type="text" name="birthday" value="" class="form-control datepicker text-center" id="entry_328909515" dir="auto" aria-label="Birthday" title="" required data-field="date" readonly>
+      </div>
+      <div class="text-center">
+        <button type="submit" class="gate-btn">GO</button>
+      </div>
+
+      <%= partial 'partials/terms' %>
+
+    </form>
+  </div>
+</div>
